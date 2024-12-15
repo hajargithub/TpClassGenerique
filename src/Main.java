@@ -9,7 +9,7 @@ public class Main {
             System.out.println("Hajar");
         } else {
             System.out.println("Not Hajar");
-        }
+                     }
         Triplet<String,Double,Integer> p2= new Triplet<>();
         p2.setA("Ahmed");
         p2.setB(12.0);
