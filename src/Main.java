@@ -10,5 +10,17 @@ public class Main {
         } else {
             System.out.println("Not Hajar");
         }
+        Triplet<String,Double,Integer> p2= new Triplet<>();
+        p2.setA("Ahmed");
+        p2.setB(12.0);
+        p2.setC(12);
+        if (p2.getA().equals("Ahmed")) {
+            System.out.println("Ahmed");
+        }
+        else {
+            System.out.println("Not Ahmed");
+        }
+        ClasseNonGenerique p3=new ClasseNonGenerique( "Haroune",15.5,1);
+        System.out.println("P3 id est: "+p3.getId());
     }
 }
