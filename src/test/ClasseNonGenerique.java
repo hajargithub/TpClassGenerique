@@ -1,3 +1,5 @@
+package test;
+
 public class ClasseNonGenerique extends Paire<String,Double> {
 private int id;
 

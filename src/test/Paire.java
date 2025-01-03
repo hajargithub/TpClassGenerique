@@ -1,3 +1,5 @@
+package test;
+
 public class Paire<T,U> {
     private T a;
     private U b;

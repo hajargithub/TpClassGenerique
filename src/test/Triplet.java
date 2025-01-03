@@ -1,4 +1,6 @@
-public class Triplet <T,U,V>  extends Paire{
+package test;
+
+public class Triplet <T,U,V>  extends Paire {
     private V c;
     public Triplet(T a, U b, V c) {
         super(a, b);
